@@ -1,4 +1,4 @@
-# Socket Calling [Use it](socket-calling.vercel.app)
+# Socket Calling [Use it](https://socket-calling.vercel.app)
 
 Real-time chat with **React** (Vercel) + **Node/Socket.io** (Render).
 
