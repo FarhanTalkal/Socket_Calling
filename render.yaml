@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: socket-calling-api
+    runtime: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ALLOW_VERCEL_PREVIEWS
+        value: "true"
+      - key: CLIENT_ORIGIN
+        sync: false
